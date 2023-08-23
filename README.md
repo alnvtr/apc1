@@ -1,4 +1,4 @@
-# Algoritmos e Prograação de computadores I 
+# Algoritmos e Programação de computadores I 
 
 repositório criado para guardar os códigos da disciplina 
 
