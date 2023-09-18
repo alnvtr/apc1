@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int global = 10;
+
+int main() {
+  int local = 5;
+
+  printf("global = %i, local = %i\n", global, local);
+
+  {
+    float local = 2.5f;
+    int temp= 10;
+    printf("global = %i, local = %f\n", global, local);
+  }
+
+
+  // temp = 0; não existe
+  
+  printf("global = %i, local = %i\n", global, local);
+
+  return 0;
+}
